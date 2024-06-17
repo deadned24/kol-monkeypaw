@@ -1,15 +1,15 @@
 # kol-monkeypaw
-QOL enhancements for April 2023's IOTM
+Quality-of-Life enhancements for April 2023's IOTM cursed monkey paw. 
 
 ## Installation:
 
-Run the following in the Graphical CLI in KolMafia
+Run the following in the Graphical CLI in KolMafia:
 
 ```git checkout deadned24/kol-monkeypaw```
 
 ## Description:
 
-Relay script for KoLmafia, for the web game Kingdom of Loathing. 
+KoLmafia relay script for the web game Kingdom of Loathing (kol).
 
 
 ## Example:
