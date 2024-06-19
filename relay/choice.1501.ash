@@ -15,25 +15,25 @@ string Ins_JS;
 //js
 Ins_JS+="\n<script language='Javascript' src='monkeyPaw.js'></script>\n";
 //css
-Ins_JS+="<style>\n .title{color:blue; font-weight: 800; font-size: 1.2em;}\n .Container{text-align: center;  min-width: 250px;}\n";
+Ins_JS+="<style>\n ._1{color:blue; font-weight: 800; font-size: 1.2em;}\n ._2{text-align: center;  min-width: 250px;}\n";
 Ins_JS+=" .button {	border: 2px solid #000;	font-size: 10pt;	font-weight: 700; background-color: #FFF; color: #000; -webkit-appearance: none; -webkit-border-radius: 0; }\n";
 Ins_JS+="input[name=\"wish\"] { width: 23em;}\n";
 Ins_JS+="</style>\n";
 //hooks
 Ins_JS+="<div style=\"display: flex; justify-content: center; margin-bottom:10px;\">\n";
-Ins_JS+="    <div  style=\"margin-right: 2em;\"><span class=title>History</span>\n";
+Ins_JS+="    <div  style=\"margin-right: 2em;\"><span class=_1>History</span>\n";
 Ins_JS+="        <span style=\"display: block; margin-top: 0.2em;\"> </span>\n";//spacer
-Ins_JS+="        <div id=\"SIC\" class=Container>...</div>\n";
+Ins_JS+="        <div id=\"SIC\" class=_2>...</div>\n";
 Ins_JS+="    </div>\n";
-Ins_JS+="    <div  style=\"margin-left: 2em; \"> <span class=title>Favorites</span>\n";
+Ins_JS+="    <div  style=\"margin-left: 2em; \"> <span class=_1>Favorites</span>\n";
 Ins_JS+="        <span style=\"display: block; margin-top: 0.2em;\"> </span>\n"; //spacer
-Ins_JS+="        <div id=\"FIC\" class=Container style=\"padding: 0; height: 6em; overflow-y: auto;\">...</div>\n";
+Ins_JS+="        <div id=\"FIC\" class=_2 style=\"padding: 0; height: 6em; overflow-y: auto;\">...</div>\n";
 Ins_JS+="    </div>\n";
 Ins_JS+="</div>\n";
 //text box
-Ins_JS+="<textarea id=\"user-notes\"  style=\"width: 95%;\" rows=\"10\" placeholder=\"Enter your notes here...\"></textarea>\n"; 
+Ins_JS+="<textarea id=\"_u1\"  style=\"width: 95%;\" rows=\"10\" placeholder=\"Enter your notes here...\"></textarea>\n"; 
 Ins_JS+="<br>\n"; 
-Ins_JS+="<button class=button id=\"save-button\">Save</button>\n"; 
+Ins_JS+="<button class=button id=\"_s1\">Save</button>\n"; 
 Ins_JS+="<p>\n";
 return Ins_JS;
 }
